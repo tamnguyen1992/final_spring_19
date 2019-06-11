@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto+Slab:700&display=swap');
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+.title{
+	font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #4e4e4e;
+	margin: 5px;
+  text-transform: uppercase;
+}
+span { 
+    background-color: #fbf7eb; 
+}
+h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  color: #014262;
+}
+p{
+  font-size: 12.3px;
+}
+header {
+	display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  height: 100vh;
+ 
+}
+#sub{
+  margin: 0px 40px;
+}
+.container {
+  position: relative;
+}
+#ps1{
+  position: absolute;
+	top: 100px;
+}
+#gallery{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  height: 100vh
+}
+.primary{
+  border-radius: 10px;
+}
+#label-1{
+  background: url('https://github.com/tamnguyen1992/final_spring_19/blob/master/assets/images/alex-shutin-203873-unsplash.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-2{
+  background: url('https://github.com/tamnguyen1992/final_spring_19/blob/master/assets/images/matthew-brodeur-428829-unsplash.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-3{
+  background: url('https://github.com/tamnguyen1992/final_spring_19/blob/master/assets/images/chris-osmond-385532-unsplash.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#personal-image {
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	header {
+		padding: 0px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 40vh;
+  }
+	#personal-image {
+    height: 100vh;
+	}
+	.title{
+    font-size: 150px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+
